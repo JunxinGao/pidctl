@@ -2,9 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"kwargs2str": "00_core.ipynb",
+         "Pid": "01_pid.ipynb"}
 
-modules = []
+modules = ["core.py",
+           "pid.py"]
 
 doc_url = "https://pidctl.gjx.me/"
 

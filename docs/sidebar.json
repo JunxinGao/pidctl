@@ -1,6 +1,7 @@
 {
   "pidctl": {
     "Overview": "/",
-    "module name here": "core.html"
+    "module name here": "core.html",
+    "pid": "pid.html"
   }
 }
