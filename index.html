@@ -207,6 +207,13 @@ document.addEventListener("DOMContentLoaded", function() {
           
           
           
+          
+          
+          <li><a href="/pid.html">pid</a></li>
+          
+          
+          
+          
       </ul>
    </li>
      
@@ -306,9 +313,13 @@ $('#toc').on('click', 'a', function() {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="as-template">as template<a class="anchor-link" href="#as-template"> </a></h1><p>sed -i '' 's/pidctl/YOUR_LIB_NAME/g' <code>grep -inr pidctl -rl .</code>
-mv pidctl YOUR_LIB_NAME</p>
-
+<h1 id="Others">Others<a class="anchor-link" href="#Others"> </a></h1><details>
+  <summary>as template</summary>
+  ~~~
+  sed -i '' 's/pidctl/YOUR_LIB_NAME/g' `grep -inr pidctl -rl .`
+  mv pidctl YOUR_LIB_NAME
+  ~~~
+</details>
 </div>
 </div>
 </div>
@@ -330,7 +341,7 @@ mv pidctl YOUR_LIB_NAME</p>
                 <div class="col-lg-12 footer">
                   <p><img src="/assets/images/company_logo.png" alt="Company logo"/></p>
                &copy;2021 Junxin Gao. All rights reserved. <br />
- Site last generated: Aug 3, 2021 <br />
+ Site last generated: Aug 4, 2021 <br />
                 </div>
             </div>
 </footer>
