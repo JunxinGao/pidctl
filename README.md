@@ -9,8 +9,14 @@
 # Others
 <details>
   <summary>as template</summary>
-  ~~~
+  
+  <p>
+
+  ```shell
   sed -i '' 's/pidctl/YOUR_LIB_NAME/g' `grep -inr pidctl -rl .`
   mv pidctl YOUR_LIB_NAME
-  ~~~
+  ```
+
+  </p>
+
 </details>
